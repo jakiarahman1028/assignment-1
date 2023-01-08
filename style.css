@@ -1,0 +1,68 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  /* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+
+
+  .btn-primary{
+    color:azure;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+/*section*/
+/*
+.column {
+    float: left;
+    width: 90%;
+    padding: 5px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+*/
+.img {  
+    width: 350px;
+    margin-left: 20%;
+    display: block; 
+  } 
+
+.about-banner { margin-block-end: 30px; }
+
+.about .section-title { margin-inline: 0; }
+
+.about .underline::before {
+  left: 0;
+  transform: translateX(0);
+}
+
+.about-text {
+  font-size: var(--fs-8);
+  margin-block-end: 20px;
+}
+
+ul { 
+  padding: 0px
+}
+li {
+  display: inline-block;
+  width: auto;
+  list-style: outside none none;
+}
